@@ -1,4 +1,4 @@
-//Pointer and Functions
+//Pointer and Array
 #include<iostream>
 using namespace std;
 const int MAX = 3;
