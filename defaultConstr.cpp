@@ -16,6 +16,9 @@ void showResult() {
 }
 };
 int main() {
-    
+    myClass c1(1, "Ram", 34.4);
+    myClass c2(2, "Sita ", 45.5);
+    c1.showResult();
+    c2.showResult();
     return 0;
 }
