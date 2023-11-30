@@ -8,7 +8,7 @@ class alpha {
         x=data;
     }
     friend class beta;
-};
+ };
 class beta {
 public:
 void func( alpha a) {

@@ -5,7 +5,7 @@ class value {
     private:
     int a;
     int b;
-    public:
+     public:
     void setData() {
         a=10;
         b=20;
@@ -16,9 +16,9 @@ float mean(value s) {
     return (s.a+s.b)/2;
 }
 int main() {
-    value a;
-    a.setData();
-    float result=mean(a);
+    value ab;
+    ab.setData();
+    float result=mean(ab);
     cout<<"Mean: "<<result;
     return 0;
 }
