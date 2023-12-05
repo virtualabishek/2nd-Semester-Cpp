@@ -13,12 +13,11 @@ class time {
         float a = hour*60 + minute;
         return a;
     }
-
 };
 
 int main() {
-    time c1(1,30);
-    float d = float(c1);
-    cout<<c1<<endl;
+    time e(2,3);
+    float d = float(e);
+    cout<<e<<endl;
     return 0;
 }
