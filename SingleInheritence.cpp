@@ -2,10 +2,10 @@
 #include<string.h>
 using namespace std;
 class student {
+    public:
     string name;
     int roll;
     int dob;
-    public:
     student(string s, int r, int d)
     { name = s; roll = r; dob = d; }
     void display() {
