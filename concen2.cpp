@@ -30,7 +30,6 @@ int main() {
     String s1,s2,s3;
     s1.getdata();
     s2.getdata();
-    s3=s1+s2;
     s3.display();
     return 0;
 }
