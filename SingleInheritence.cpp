@@ -6,7 +6,7 @@ class student {
     string name;
     int roll;
     int dob;
-    student(string s, int r, int d)
+    void setB (string s, int r, int d)
     { name = s; roll = r; dob = d; }
     void display() {
         cout<<"Name: "<<name<<"\t Roll: "<<roll<<"\tDOB: "<<dob<<endl;
@@ -16,7 +16,7 @@ class foreign : public student
 {
     string country;
     public:
-    foreign ( string s, int r, int d, string f )
+    void setD ( string f )
     { country = f; }
     void displayForeign() {
         cout<<"Country: "<<country<<endl;
