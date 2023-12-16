@@ -21,4 +21,4 @@ int main() {
     c.A::show();
     c.B::show();
     return 0;
-}
+}                       
