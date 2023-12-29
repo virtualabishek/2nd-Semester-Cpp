@@ -17,6 +17,8 @@ int main() {
     test t;
     t.getData();
     t.showData();
-    
+    cout<<"Enter the value of y."<<endl;
+    cin>>t.y;
+    cout<<"Value is: "<<t.y<<endl;
     return 0;
 }
